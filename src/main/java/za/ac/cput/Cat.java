@@ -1,3 +1,8 @@
+/* author : Mogamad Nabeel Meyers
+Student Number: 218328702
+
+detail: contains info on class Cat
+ */
 package za.ac.cput;
 
 import java.util.Objects;
