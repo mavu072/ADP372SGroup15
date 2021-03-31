@@ -1,6 +1,9 @@
 package za.ac.cput;
 
 public class Membership {
+    /**
+     * This is program for gym membership
+     */
     private String name, surname, identity;
 
     public String getName() {
