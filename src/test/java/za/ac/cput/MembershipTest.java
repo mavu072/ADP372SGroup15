@@ -19,6 +19,7 @@ class MembershipTest {
         membership3 = new Membership();
         membership1 = membership3;
     }
+    //Identity Test
     @Test
     void testIdentity(){
         assertSame(membership1,membership3);
@@ -26,11 +27,13 @@ class MembershipTest {
 
     }
     @Test
+    //Equality test
     void testEquality() {
         assertEquals(membership1, membership3);
         assertNotEquals(membership2, membership1);
     }
     @Test
+    //Fail Test
     public void testGetName(){
         System.out.println("");
         Membership instance = new Membership();
@@ -40,6 +43,7 @@ class MembershipTest {
         fail("This will fail");
 
     }
+    //Disabling test
     @Test
     @Disabled
     public void testSetName(){
