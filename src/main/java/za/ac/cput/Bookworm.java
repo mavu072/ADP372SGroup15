@@ -8,18 +8,20 @@ package za.ac.cput;
  */
 
 public class Bookworm {
-    int userId;
+    long userId;
     String userName;
 
     public Bookworm() {
+        this.userId = 321024359;
+        this.userName = "ctrlAltron";
     }
 
-    public Bookworm(int userId, String userName) {
+    public Bookworm(long userId, String userName) {
         this.userId = userId;
         this.userName = userName;
     }
 
-    public int getUserId() {
+    public long getUserId() {
         return userId;
     }
 
