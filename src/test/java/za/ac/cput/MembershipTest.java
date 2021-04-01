@@ -23,14 +23,14 @@ class MembershipTest {
     @Test
     void testIdentity(){
         assertSame(membership1,membership3);
-        assertNotSame(membership2,membership1);
+
 
     }
     @Test
     //Equality test
     void testEquality() {
         assertEquals(membership1, membership3);
-        assertNotEquals(membership2, membership1);
+
     }
     @Test
     //Fail Test
